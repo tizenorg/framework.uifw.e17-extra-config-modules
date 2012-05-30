@@ -5,6 +5,7 @@ Release:    1
 Group:      TO_BE/FILLED_IN
 License:    Samsung Proprietary License
 Source0:    %{name}-%{version}.tar.gz
+Source1001: packaging/e17-extra-private-modules.manifest 
 BuildRequires:  pkgconfig(enlightenment)
 BuildRequires:  pkgconfig(utilX)
 BuildRequires:  pkgconfig(elementary)
@@ -18,6 +19,7 @@ The E17 Extra Private Modules  The E17 extra private modules consists of modules
 
 
 %build
+cp %{SOURCE1001} .
 
 export CFLAGS+=" -Wall -g -fPIC -rdynamic"
 export LDFLAGS+=" -Wl,--hash-style=both -Wl,--as-needed -Wl,--rpath=/usr/lib"
@@ -44,6 +46,7 @@ done
 find  %{buildroot}/usr/lib/enlightenment/modules -name *.la | xargs rm 
 
 %files
+%manifest e17-extra-private-modules.manifest
 %defattr(-,root,root,-)
 %{_libdir}/enlightenment/modules/*/*/*.so
 %{_libdir}/enlightenment/modules/config-slp/module.desktop

@@ -1,0 +1,7 @@
+* Sun Dec 30 2012 Anas Nashif <anas.nashif@intel.com> accepted/trunk/20121205.111404@b023f4d
+- shorten summary
+
+* Wed Nov 28 2012 Anas Nashif <anas.nashif@intel.com> accepted/trunk/20121127.080913@cc1679e
+- Use libX11 instead of libx11
+- Set license and Group
+

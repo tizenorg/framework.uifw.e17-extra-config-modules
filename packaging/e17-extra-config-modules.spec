@@ -1,6 +1,6 @@
 Name:           e17-extra-config-modules
 Summary:        The E17 Extra Config Modules
-Version:        0.1.28r01
+Version:        0.1.28
 Release:        1
 Group:          Graphical desktop/Enlightenment
 License:        BSD
@@ -28,7 +28,7 @@ export LDFLAGS+=" -Wl,--hash-style=both -Wl,--as-needed -Wl,--rpath=/usr/lib"
 export CFLAGS+=" -D_ENV_ARM"
 %endif
 
-for FILE in config-slp
+for FILE in config-tizen
 do
         (cd $FILE && ./autogen.sh && ./configure --prefix=/usr && make )
 done
@@ -39,7 +39,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/license
 cp %{_builddir}/%{buildsubdir}/LICENSE %{buildroot}/usr/share/license/%{name}
 
-for FILE in config-slp
+for FILE in config-tizen
 do
         (cd $FILE && %make_install )
 done
@@ -47,6 +47,6 @@ done
 
 %files
 %defattr(-,root,root,-)
-%{_libdir}/enlightenment/modules/config-slp/*
+%{_libdir}/enlightenment/modules/config-tizen/*
 /usr/share/license/%{name}
 %manifest %{name}.manifest

@@ -13,7 +13,7 @@
 dnl ========================================================================
 # initialization
 dnl ========================================================================
-AC_INIT([config-slp], [0.1], [sgyun.kim@samsung.com])
+AC_INIT([config-tizen], [0.1], [sgyun.kim@samsung.com])
 
 # check for tools needed by automake generated Makefiles
 # -Wall  : Turn all warnings on.

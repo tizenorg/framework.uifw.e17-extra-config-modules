@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Link
-Name=config-slp
+Name=config-tizen
 Name[cs]=
 Name[de]=
 Name[eo]=
@@ -15,7 +15,7 @@ Name[tr]=
 Name[zh_CN]=
 Name[zh_TW]=
 Icon=e-module-clock
-Comment=<title>config-slp</title><br>Samsung elementary profile.
+Comment=<title>config-tizen</title><br>Tizen elementary profile.
 Comment[cs]=
 Comment[de]=
 Comment[eo]=

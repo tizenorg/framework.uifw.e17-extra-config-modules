@@ -28,7 +28,6 @@
 #define ELM_FINGER_SIZE         60
 
 static int _e_elm_config_scale_update(void);
-
 /* this is needed to advertise a label for the module IN the code (not just
  * the .desktop file) but more specifically the api version it was compiled
  * for so E can skip modules that are compiled for an incorrect API version
@@ -98,7 +97,10 @@ _e_elm_config_scale_update (void)
 
 #if RESOLUTION_BASE
 
-   scale = ROUND_DOUBLE(target_width / BASE_LAYOUT_WIDTH_PX);
+   if (target_width < target_height)
+      scale = ROUND_DOUBLE(target_width / BASE_LAYOUT_WIDTH_PX);
+   else
+      scale = ROUND_DOUBLE(target_height / BASE_LAYOUT_WIDTH_PX);
 
 #else // DPI BASE
    double target_inch, target_dpi, base_dpi;

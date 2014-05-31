@@ -1,0 +1,8 @@
+e17 sound_server rwx
+e17 system::media rwxat
+e17 system::vconf_inhouse rwxat
+e17 system::vconf_multimedia rwxat
+e17 media-server rwx
+media-server e17 w
+e17 media-data::db rw
+e17 ail::db rw

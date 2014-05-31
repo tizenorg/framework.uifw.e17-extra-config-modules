@@ -1,0 +1,6 @@
+msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
+msgstr "Pieskarieties, lai skatītu ekrānuzņēmumu"
+
+msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
+msgstr "Ekrāns ir tverts"
+

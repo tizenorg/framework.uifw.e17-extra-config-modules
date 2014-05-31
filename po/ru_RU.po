@@ -1,0 +1,6 @@
+msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
+msgstr "Нажмите для просмотра снимка экрана"
+
+msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
+msgstr "Создан снимок экрана"
+

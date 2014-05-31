@@ -1,0 +1,6 @@
+msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
+msgstr "輕觸以檢視螢幕截圖"
+
+msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
+msgstr "已截取螢幕畫面"
+

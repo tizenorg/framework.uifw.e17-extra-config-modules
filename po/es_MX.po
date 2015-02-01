@@ -1,6 +1,0 @@
-msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
-msgstr "Pulse para ver la captura de pantalla"
-
-msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
-msgstr "Pantalla capturada"
-

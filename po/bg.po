@@ -1,6 +1,0 @@
-msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
-msgstr "Чукнете, за да видите снимката на екрана"
-
-msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
-msgstr "Екранът е заснет"
-

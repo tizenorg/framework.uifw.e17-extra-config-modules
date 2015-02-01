@@ -1,6 +1,0 @@
-msgid "IDS_SC_BODY_TAP_TO_VIEW_SCREENSHOT"
-msgstr "स्क्रीनशॉट देखने के लिए टैप करें"
-
-msgid "IDS_SC_BODY_SCREEN_CAPTURED_ABB"
-msgstr "स्क्रीन कैप्चर किया गया"
-

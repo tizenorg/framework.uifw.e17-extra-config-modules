@@ -1,3 +1,19 @@
+e17-extra-private-modules (0.1.21) unstable; urgency=low
+
+  * Change naming prefix slp to tizen
+  * Git: slp/pkgs/e/e17-extra-private-modules
+  * Tag: e17-extra-private-modules_0.1.21
+
+ -- Gwangyeong Mun <kk.moon@samsung.com>  Thu, 03 Jan 2013 14:52:40 +0900
+
+e17-extra-private-modules (0.1.20) unstable; urgency=low
+
+  * Repackaging according to E_Border structure.
+  * Git: slp/pkgs/e/e17-extra-private-modules
+  * Tag: e17-extra-private-modules_0.1.20
+
+ -- Doyoun Kang <doyoun.kang@samsung.com>  Tue, 18 Sep 2012 14:53:19 +0900
+
 e17-extra-private-modules (0.1.18) unstable; urgency=low
 
   * Change to save profile in every rebooting time.

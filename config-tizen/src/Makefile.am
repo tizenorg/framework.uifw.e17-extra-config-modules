@@ -1,5 +1,5 @@
 MAINTAINERCLEANFILES = Makefile.in
-MODULE = config-slp
+MODULE = config-tizen
 
 LDFLAGS += 
 #LDFLAGS += -lvconf -lappfwk

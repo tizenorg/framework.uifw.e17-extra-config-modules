@@ -13,7 +13,7 @@
 dnl ========================================================================
 # initialization
 dnl ========================================================================
-AC_INIT([config-slp], [0.1], [sgyun.kim@samsung.com])
+AC_INIT([config-tizen], [0.1], [sgyun.kim@samsung.com])
 
 # check for tools needed by automake generated Makefiles
 # -Wall  : Turn all warnings on.
@@ -62,7 +62,7 @@ dnl ========================================================================
 # checks for pkg-config
 dnl ========================================================================
 #PKG_CHECK_MODULES(ENLIGHTENMENT, [enlightenment, gestureproto, xgesture])
-PKG_CHECK_MODULES(ENLIGHTENMENT, [enlightenment, elementary])
+PKG_CHECK_MODULES(ENLIGHTENMENT, [enlightenment, elementary, efl-assist, vconf])
 ENLIGHTENMENT_CFLAGS="${ENLIGHTENMENT_CFLAGS} "
 AC_SUBST(ENLIGHTENMENT_CFLAGS)
 AC_SUBST(ENLIGHTENMENT_LIBS)

@@ -8,14 +8,14 @@
 #export DH_VERBOSE=1
 
 # set this to the name of the main shlib's binary package
-PACKAGE = e17-extra-private-modules
+PACKAGE = e17-extra-config-modules
 PREFIX ?= /usr
 
 #include debian/xsfbs/xsfbs.mk
 
 # This package contains multiple modules as shipped by upstream. Each module is # contained in a subdirectory in the root dir of the package. You must list each
 # subdirectory explicitly so that the build system knows what to build
-DEF_SUBDIRS= config-slp
+DEF_SUBDIRS= config-tizen
 SUBDIRS=$(DEF_SUBDIRS)
 BUILD_STAMPS = $(addprefix $(STAMP_DIR)/build-,$(SUBDIRS))
 
